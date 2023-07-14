@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<AssignMessage name="am-updateuser-default">
+  <DisplayName>am-updateuser-default</DisplayName>
+  <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+  <Set>
+    <Payload contentType="application/json"/>
+    <StatusCode>default</StatusCode>
+    <ReasonPhrase/>
+  </Set>
+</AssignMessage>

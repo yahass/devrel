@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<AssignMessage name="am-updatepetwithform-405">
+  <DisplayName>am-updatepetwithform-405</DisplayName>
+  <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+  <Set>
+    <Payload contentType="application/json"/>
+    <StatusCode>405</StatusCode>
+    <ReasonPhrase/>
+  </Set>
+</AssignMessage>

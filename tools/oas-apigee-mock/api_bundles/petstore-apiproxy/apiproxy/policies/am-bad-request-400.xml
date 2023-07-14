@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<AssignMessage name="am-bad-request-400">
+  <DisplayName>am-bad-request-400</DisplayName>
+  <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+  <Set>
+    <Payload contentType="application/json"/>
+    <StatusCode>400</StatusCode>
+    <ReasonPhrase>Bad Request</ReasonPhrase>
+  </Set>
+</AssignMessage>

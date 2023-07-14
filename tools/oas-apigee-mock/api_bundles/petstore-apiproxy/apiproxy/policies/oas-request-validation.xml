@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<OASValidation name="oas-request-validation">
+  <DisplayName>oas-request-validation</DisplayName>
+  <Source>request</Source>
+  <OASResource>oas://petstore-example.yaml</OASResource>
+  <Options>
+    <ValidateMessageBody>true</ValidateMessageBody>
+    <AllowUnspecifiedParameters>
+      <Header>true</Header>
+      <Query>false</Query>
+      <Cookie>false</Cookie>
+    </AllowUnspecifiedParameters>
+  </Options>
+</OASValidation>
