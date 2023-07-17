@@ -37,6 +37,8 @@ jobs:
           create_credentials_file: true
           workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_POOL_ID }}
           service_account: ${{ secrets.SERVICE_ACCOUNT }}
+      - name: Generate bundle from swagger
+        run: node bin/oas-apigee-mock generateApi petstore-apiproxy -s petstore-example.yaml -o
       - name: Create API bundle
         run: zip -r proxy.zip apiproxy
       - name: Set output
